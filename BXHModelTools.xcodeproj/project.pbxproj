@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A63467031FF1E04F0044C85B /* BXHModelClass.m in Sources */ = {isa = PBXBuildFile; fileRef = A63467021FF1E04F0044C85B /* BXHModelClass.m */; };
 		A693FB631FF0C88200103DDD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A693FB621FF0C88200103DDD /* AppDelegate.m */; };
 		A693FB661FF0C88200103DDD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A693FB651FF0C88200103DDD /* ViewController.m */; };
 		A693FB681FF0C88200103DDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A693FB671FF0C88200103DDD /* Assets.xcassets */; };
@@ -15,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A63467011FF1E04F0044C85B /* BXHModelClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BXHModelClass.h; sourceTree = "<group>"; };
+		A63467021FF1E04F0044C85B /* BXHModelClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BXHModelClass.m; sourceTree = "<group>"; };
 		A693FB5E1FF0C88200103DDD /* BXHModelTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BXHModelTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A693FB611FF0C88200103DDD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A693FB621FF0C88200103DDD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -66,6 +69,8 @@
 				A693FB6C1FF0C88200103DDD /* Info.plist */,
 				A693FB6D1FF0C88200103DDD /* main.m */,
 				A693FB6F1FF0C88200103DDD /* BXHModelTools.entitlements */,
+				A63467011FF1E04F0044C85B /* BXHModelClass.h */,
+				A63467021FF1E04F0044C85B /* BXHModelClass.m */,
 			);
 			path = BXHModelTools;
 			sourceTree = "<group>";
@@ -141,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A693FB661FF0C88200103DDD /* ViewController.m in Sources */,
+				A63467031FF1E04F0044C85B /* BXHModelClass.m in Sources */,
 				A693FB6E1FF0C88200103DDD /* main.m in Sources */,
 				A693FB631FF0C88200103DDD /* AppDelegate.m in Sources */,
 			);
@@ -267,11 +273,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = BXHModelTools/BXHModelTools.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = BXHModelTools/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = Com.SZY.live.BXHModelTools;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -281,11 +287,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = BXHModelTools/BXHModelTools.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = BXHModelTools/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = Com.SZY.live.BXHModelTools;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
